@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>	Hello World	</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<header> 
+				<h1><a href="index.html">Hello World</a> - <small>This is my first website!</small></h1>
+				<div id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="contact.html">Contact Me</a></li> 
+						<li><a href="javascriptdemo.html" id="selected">Javascript Demo</a></li>
+					</ul>	
+				</div>
+			</header>
+			<button onclick="helloworld();">Click Me!</button><br>
+			<script type="text/javascript">
+				function helloworld() {
+					alert("Hello World");
+					console.log("Huzzah");
+				}				
+			</script>			
+			<button onclick="add(3);">Add</button>
+			<input id="sum" disabled value="0"/><br>
+			<button onclick="changeBox();">Change Box</button>
+			<div class="colorBox">
+				Box 1
+			</div>
+			<div class="colorBox">
+				Box 2
+			</div>
+			<footer>
+				Made by Charlotte O'Neill &copy; 2014<br>
+				<a href="contact.html">Contact Me</a> 
+				<a href="https://www.facebook.com/charlotte.oneill.73" target="_blank">Facebook</a>
+			</footer>
+		</div>
+	</body>
+
+</html>
